@@ -1,0 +1,1550 @@
+@font-face {
+    font-family: Better VCR;
+    src: url(better-vcr-5.2.ttf) format(truetype);
+}
+
+
+
+body {
+    margin: 0px;
+    height: 100%;
+  }
+
+.shapka_inblock
+{
+    z-index: 4;
+}
+.buttons
+{
+    z-index: 4;
+}
+.icon
+{
+    z-index: 4;
+}
+
+  .menu
+  {
+    visibility: hidden;
+    display: flex;
+    width: 190px;
+    height: 295px;
+    padding: 21px 21px 171px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+    flex-shrink: 0;
+    border: 8px solid #31323E;
+    background: #5B70DE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 150px;
+    right: 10%;
+    z-index: 5;
+    overflow: visible
+  }
+  .block
+  {
+    display: flex;
+    height: 35px;
+    padding: 10px 70px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 3px solid #FFF;
+
+  }
+  .block .text
+  {
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .icon:hover .menu
+  {
+    visibility: visible;
+    z-index: 5;
+  }
+  
+
+
+@media screen and (max-width: 1200px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+
+    .first
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        height: 333px;
+    }
+    .logo_big
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 30px 0;
+    }
+    .text_cheer
+    {
+        display: flex;
+        padding: 71px 26px 38px 0px;
+        align-items: center;
+        width: 50%;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.28px;
+    }
+    
+    .banner
+    {
+        width: 100%;
+        margin: 60px 0 100px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner img
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .name_of
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    
+    .swiper 
+    {
+        width: 100%;
+        height: 550px;
+    }
+    .swiper-slide 
+    {
+        font-size: 18px;
+        background: #7c535300;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .product
+    {
+        width: 330px;
+        height: 200px;
+        border: 7px solid #FFF;
+        margin: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .product .text
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .product .cart
+    {
+        display: flex;
+        justify-content: center;   
+        width: 50%;
+    }
+    
+    .product img
+    {
+        height: 70%;
+        width: 70%;
+        border-radius: 5px;
+        margin-top: 35px;
+    
+    }
+    
+    .product .text .name
+    {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+    
+        padding-top: 30px;
+        }
+    
+    .product .text .opis
+    {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        padding-bottom: 30px;
+    }
+
+.logo
+{
+    background: none;
+    border: 0;
+}
+
+.icon
+{
+    background: none;
+    border: 0;
+}
+  
+.main
+{
+    min-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    left: 0px; 
+    bottom: 0px;
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 50px 0 50px;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+}
+
+.butt1 {
+        display: inline-flex;
+        padding: 9px 28px 9px 28px;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: 2px white solid;
+        height: max-content;
+        position: relative;
+        margin-left: 0%;
+        margin-right: 0%;
+}
+
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 5%;
+   margin-right: 1%;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 5%;
+}
+
+button
+{
+    background: none;
+    border: 0;
+}
+
+/* шапка */
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size: 13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+
+
+}
+@media screen and (max-width: 992px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+  
+    .first
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        height: 333px;
+    }
+    .logo_big
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 30px 0;
+    }
+    .text_cheer
+    {
+        display: flex;
+        padding: 71px 26px 38px 0px;
+        align-items: center;
+        width: 50%;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.28px;
+    }
+    
+    .banner
+    {
+        width: 100%;
+        margin: 60px 0 100px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner img
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .name_of
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    
+    .swiper 
+    {
+        width: 100%;
+        height: 550px;
+    }
+    .swiper-slide 
+    {
+        font-size: 18px;
+        background: #7c535300;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .product
+    {
+        width: 250px;
+        height: 150px;
+        border: 7px solid #FFF;
+        margin: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .product .text
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .product .cart
+    {
+        display: flex;
+        justify-content: center;   
+        width: 50%;
+    }
+    
+    .product img
+    {
+        height: 70%;
+        width: 70%;
+        border-radius: 5px;
+        margin-top: 20px;
+    
+    }
+    
+    .product .text .name
+    {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+    
+        padding-top: 20px;
+        }
+    
+    .product .text .opis
+    {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        padding-bottom: 30px;
+    }
+
+.main
+{
+    min-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content;  
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    left: 0px; 
+    bottom: 0px;
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 10px 0 10px;
+    order: 5;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+    order: 4;
+}
+
+.butt1
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.logo
+{
+    background: none;
+    border: 0;
+}
+
+.icon
+{
+    background: none;
+    border: 0;
+}
+
+/* шапка */
+
+
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 10px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size:13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+
+
+}
+
+@media screen and (min-width: 1201px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+    .logo
+    {
+        background: none;
+        border: 0;
+    }
+    
+    .icon
+    {
+        background: none;
+        border: 0;
+    }
+    .main
+{
+    min-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    left: 0px; 
+    bottom: 0px;
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 50px 0 50px;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+}
+
+.butt1
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 5%;
+   margin-right: 0%;
+}
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 31px 9px 31px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 5%;
+   margin-right: 0%;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 0%;
+   margin-right: 5%;
+}
+
+button
+{
+    background: none;
+    border: 0;
+}
+
+/* шапка */
+
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size: 13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+.first
+{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 333px;
+}
+.logo_big
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+.text_cheer
+{
+    display: flex;
+    padding: 71px 26px 38px 0px;
+    align-items: center;
+    width: 50%;
+    color: #FFF;
+    text-align: center;
+    font-family: Better VCR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.28px;
+}
+
+.banner
+{
+    width: 100%;
+    margin: 60px 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.name_of
+{
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.swiper 
+{
+    width: 100%;
+    height: 550px;
+}
+.swiper-slide 
+{
+    font-size: 18px;
+    background: #7c535300;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product
+{
+
+    height: 50%;
+    border: 7px solid #FFF;
+    margin: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.product .text
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10%;
+}
+
+.product .cart
+{
+    display: flex;
+    justify-content: center;   
+    width: 50%;
+}
+
+.product img
+{
+    height: 70%;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 35px;
+
+}
+
+.product .text .name
+{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Better VCR;
+    font-size: 120%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+
+    padding-top: 35px;
+    }
+
+.product .text .opis
+{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Better VCR;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding-bottom: 30px;
+}
+
+}
+
+@media screen and (max-width: 720px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+
+    .first
+    {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        width: 100%;
+        height: 290px;
+    }
+    .logo_big
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 30px 0;
+    }
+    .text_cheer
+    {
+        display: flex;
+        padding: 71px 26px 38px 0px;
+        align-items: center;
+        width: 50%;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.28px;
+    }
+    
+    .banner
+    {
+        width: 100%;
+        margin: 60px 0 100px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner img
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .name_of
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.28px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    
+    .swiper 
+    {
+        width: 100%;
+        height: 550px;
+    }
+    .swiper-slide 
+    {
+        font-size: 18px;
+        background: #7c535300;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .product
+    {
+        width: 410px;
+        height: 280px;
+        border: 7px solid #FFF;
+        margin: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .product .text
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .product .cart
+    {
+        display: flex;
+        justify-content: center;   
+        width: 50%;
+    }
+    
+    .product img
+    {
+        height: 70%;
+        width: 70%;
+        border-radius: 5px;
+        margin-top: 40px;
+    
+    }
+    
+    .product .text .name
+    {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+    
+        padding-top: 40px;
+        }
+    
+    .product .text .opis
+    {
+        position: relative;
+        height: 50%;
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        padding-bottom: 30px;
+    }
+
+.main
+{
+    max-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    left: 0px; 
+    bottom: 0px;
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 10px 0 10px;
+    order: 5;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+    order: 4;
+}
+
+.butt1
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+   order: 1;
+}
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+   order: 2;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+   order: 3;
+}
+
+.logo
+{
+    background: none;
+    border: 0;
+    order: 5;
+}
+
+.icon
+{
+    background: none;
+    border: 0;
+    order: 4;
+}
+
+/* шапка */
+
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 10px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size:13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+
+
+}
+

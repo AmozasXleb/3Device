@@ -1,0 +1,1916 @@
+@font-face {
+    font-family: Better VCR;
+    src: url(better-vcr-5.2.ttf) format(truetype);
+}
+
+
+body {
+    margin: 0px;
+    height: 100%;
+  }
+
+@media screen and (max-width: 1200px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+    .haracBig
+    {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .tovar
+    {
+        width: 98%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        border: 7px solid #FFF;
+        margin: 20px auto;
+    }
+
+    .opisanie
+    {
+        position: relative;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 15px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .filters
+    {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    .but
+    {
+        display: inline-flex;
+        height: 25px;
+        padding: 16px 12px 15px 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        position: relative;
+        border: 2px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .buttons_fil
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        margin-top: 30px;
+    }
+
+    .first_fil
+    {
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 11px;
+        gap: 5%
+    }
+
+    .but_fil
+    {
+        display: inline-flex;
+        padding: 16px 21px 16px 21px;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: max-content;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .but_fil img
+    {
+        margin-left: 10px;
+    }
+
+    .panel
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 96%;
+        height: max-content;
+        border: 8px solid #FFF;
+        margin: 0 auto;
+    }
+
+    .but_menu
+    {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 7%;
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .but1
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 8px solid #FFF;
+    }
+
+    .but2
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 8px solid #FFF;
+    }
+
+
+    .but3
+    {
+        background: #FFF;
+        color: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 8px solid #FFF;
+    }
+
+    .main_panel
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height: 100%;
+        border: 8px solid #FFF;
+    }
+
+    .labell
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 11px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .cho_mona
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .label
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 21px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .logo
+{
+    background: none;
+    border: 0;
+}
+
+.icon
+{
+    background: none;
+    border: 0;
+}
+  
+    .main
+{
+    min-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    bottom: 0px;
+    left: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 50px 0 50px;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+}
+
+
+    .butt1 {
+        display: inline-flex;
+        padding: 9px 28px 9px 28px;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: 2px white solid;
+        height: max-content;
+        position: relative;
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 5%;
+   margin-right: 1%;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 5%;
+}
+
+button
+{
+    background: none;
+    border: 0;
+}
+
+/* шапка */
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size: 13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+
+}
+@media screen and (max-width: 992px) 
+{   
+    a
+    {
+        text-decoration: none;
+    }
+    .haracBig
+    {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .tovar
+    {
+        width: 98%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        border: 4px solid #FFF;
+        margin: 20px auto;
+    }
+
+
+    .opisanie
+    {
+        position: relative;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        width: 67%;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .filters
+    {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    .but
+    {
+        display: inline-flex;
+        height: 25px;
+        padding: 12px 8px 12px 8px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        position: relative;
+        border: 2px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    .buttons_fil
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        margin-top: 30px;
+    }
+
+    .first_fil
+    {
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 11px;
+        gap: 5%
+    }
+
+    .but_fil
+    {
+        display: inline-flex;
+        padding: 16px 21px 16px 21px;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: max-content;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .but_fil img
+    {
+        margin-left: 10px;
+    }
+
+    .panel
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 96%;
+        height: max-content;
+        border: 4px solid #FFF;
+        margin: 0 auto;
+    }
+
+    .but_menu
+    {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 7%;
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .but1
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 4px solid #FFF;
+    }
+
+    .but2
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 4px solid #FFF;
+    }
+
+
+    .but3
+    {
+        background: #FFF;
+        color: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 4px solid #FFF;
+    }
+
+    .main_panel
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height: 100%;
+        border: 4px solid #FFF;
+    }
+
+    .labell
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 11px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .cho_mona
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main_panel
+    {
+        position: relative;
+        width: 99%;
+        height: 100%;
+        border: 4px solid #FFF;
+    }
+
+
+
+    .label
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 21px;
+        padding-top: 21px;
+        align-items: center;
+    }
+
+    
+    
+  
+.main
+{
+    min-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    bottom: 0px;
+    left: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 10px 0 10px;
+    order: 5;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+    order: 4;
+}
+
+.butt1
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+.logo
+{
+    background: none;
+    border: 0;
+}
+
+.icon
+{
+    background: none;
+    border: 0;
+}
+
+/* шапка */
+
+
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 10px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size:13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+
+
+}
+
+@media screen and (min-width: 1201px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+
+    .tovar
+    {
+        width: 98%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        border: 7px solid #FFF;
+        margin: 20px auto;
+    }
+
+    .opisanie
+    {
+        position: relative;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+    .haracBig
+    {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    .filters
+    {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    .but
+    {
+        display: inline-flex;
+        height: 25px;
+        padding: 16px 12px 15px 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        position: relative;
+        border: 2px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .buttons_fil
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        margin-top: 30px;
+    }
+
+    .first_fil
+    {
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 11px;
+        gap: 5%
+    }
+
+    .but_fil
+    {
+        display: inline-flex;
+        padding: 16px 21px 16px 21px;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: max-content;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .but_fil img
+    {
+        margin-left: 10px;
+    }
+
+    .panel
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 96%;
+        height: max-content;
+        border: 8px solid #FFF;
+        margin: 0 auto;
+    }
+
+    .but_menu
+    {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 7%;
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .but1
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 8px solid #FFF;
+    }
+
+    .but2
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 8px solid #FFF;
+    }
+
+
+    .but3
+    {
+        background: #FFF;
+        color: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 48px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 8px solid #FFF;
+    }
+
+    .main_panel
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height: 100%;
+        border: 8px solid #FFF;
+    }
+
+    .labell
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 11px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .cho_mona
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .label
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 21px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .logo
+    {
+        background: none;
+        border: 0;
+    }
+    
+    .icon
+    {
+        background: none;
+        border: 0;
+    }
+    .main
+{
+    min-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    bottom: 0px;
+    left: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 50px 0 50px;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+}
+
+.butt1
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 5%;
+   margin-right: 0%;
+}
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 31px 9px 31px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 5%;
+   margin-right: 0%;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 30px 9px 30px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 0%;
+   margin-right: 5%;
+}
+
+button
+{
+    background: none;
+    border: 0;
+}
+
+/* шапка */
+
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size: 13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+
+
+}
+
+@media screen and (max-width: 720px) 
+{
+    a
+    {
+        text-decoration: none;
+    }
+    .haracBig
+    {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+    .tovar
+    {
+        width: 98%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+        border: 4px solid #FFF;
+        margin: 20px auto;
+    }
+
+    
+
+    .opisanie
+    {
+        position: relative;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 15px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .filters
+    {
+        width: 100%;
+        height: 90px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        height: max-content;
+        margin-bottom: 10px;
+    }
+
+    .but
+    {
+        display: inline-flex;
+        height: 5px;
+        padding: 16px 12px 15px 12px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        position: relative;
+        border: 2px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .buttons_fil
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        margin-top: 30px;
+    }
+
+    .first_fil
+    {
+        position: relative;
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 11px;
+        gap: 5%
+    }
+
+    .but_fil
+    {
+        display: inline-flex;
+        padding: 10px 16px 10px 16px;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #FFF;
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: max-content;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .but_fil img
+    {
+        margin-left: 10px;
+    }
+
+    .panel
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 96%;
+        height: 900px;
+        border: 4px solid #FFF;
+        margin: 0 auto;
+    }
+
+    .but_menu
+    {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 7%;
+        height: 68px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .but1
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 35px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 3px solid #FFF;
+    }
+
+    .but2
+    {
+        color: #ffffff;
+        background: #6479E6;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 35px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 3px solid #FFF;
+    }
+
+
+    .but3
+    {
+        color: #6479E6;
+        background: #FFF;
+        text-align: center;
+        font-family: Better VCR;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        width: 25%;
+        height: 35px;
+        padding: 12px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border: 3px solid #FFF;
+    }
+
+    .main_panel
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height: 100%;
+        border: 4px solid #FFF;
+    }
+
+    .labell
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 11px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .cho_mona
+    {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .label
+    {
+        color: #FFF;
+        font-family: Better VCR;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        display: flex;
+        padding-left: 21px;
+        padding-top: 21px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+.label
+{
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    display: flex;
+    padding-left: 21px;
+    padding-top: 21px;
+    align-items: center;
+}
+    
+  
+.main
+{
+    max-width: 720px; 
+    height: max-content;
+    background: #31323E;
+}
+/* основное поле */
+.main_field
+{
+    
+    height: max-content; 
+    width: 70%;
+    margin: 0 auto;
+    position: relative; 
+    background: #6479E6;
+    padding-bottom: 200px;
+}
+/* основное поле */
+.footer
+{
+    min-width: 720px; 
+    height: 200px; 
+    bottom: 0px;
+    left: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+}
+/* шапка */
+.shapka
+{
+    width: 100%; 
+    height: max-content;
+    left: 0px; 
+    top: 0px; 
+    position: relative; 
+    background: #31323E; 
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 15px 0px 15px 0px;
+}
+.shapka_inblock
+{
+    width: 95%; 
+    height: max-content;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; 
+    border-radius: 7px; 
+    overflow: hidden; 
+    border: 10px black solid; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
+    display: flex;
+    background-image: url(img_comp/текстуура.png);
+    background-color: #5b71ea;
+    
+}
+
+.buttons
+{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo_img
+{
+    width: 141px;
+    height: 120px; 
+    position: relative;
+    margin: 0 10px 0 10px;
+    order: 5;
+  
+}
+.icon_img
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px white solid; 
+    width: 69px;
+    height: 65px;
+    order: 4;
+}
+
+.butt1
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+   order: 1;
+}
+
+.butt2
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+   order: 2;
+}
+
+.butt3
+{
+    display: inline-flex;
+    padding: 9px 20px 9px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Better VCR;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px white solid;
+    height: max-content;
+    position: relative;
+   margin-left: 1%;
+   margin-right: 1%;
+   order: 3;
+}
+
+.logo
+{
+    background: none;
+    border: 0;
+    order: 5;
+}
+
+.icon
+{
+    background: none;
+    border: 0;
+    order: 4;
+}
+
+/* шапка */
+
+
+.who
+{
+    left: 30px; 
+    top: 39px; 
+    position: absolute; 
+    color: white; 
+    font-size: 10px; 
+    font-family: Better VCR; 
+}
+
+.obrat
+{
+    height: 38px; 
+    padding-top: 3px; 
+    padding-bottom: 3px; 
+    padding-left: 11px; 
+    padding-right: 12px; 
+    background: #3B3D4E; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    backdrop-filter: blur(4px); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.sviaz
+{
+    color: white; 
+    font-size:13px; 
+    font-family: Better VCR; 
+    font-weight: 400; 
+}
+
+.icons
+{
+    width: 43px; 
+    height: 43px; 
+    margin: 10px;
+}
+
+.shtuki
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    
+}
+
+
+
+}
+
